@@ -18,11 +18,10 @@ export const contact = async (req, res) => {
 }
 
 // File-write
-
 export const file_write = async (req, res) => {
 
     try {
-        fs.writeFileSync("./app/storage/demo.txt", 'Hello world');
+        await fs.writeFileSync("./app/storage/demo.txt", 'hello world');
         res.write('File created and written successfully in storage directory');
     } catch (err) {
         console.error('Error writing to file:', err);

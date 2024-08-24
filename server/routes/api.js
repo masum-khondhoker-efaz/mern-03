@@ -13,7 +13,7 @@ router.get("/about", portfolio.about);
 router.get("/contact", portfolio.contact);
 
 //File-write
-router.post("/file-write", portfolio.file_write);
+router.get("/file-write", portfolio.file_write);
 
 
 
