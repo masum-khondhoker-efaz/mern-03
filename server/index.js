@@ -40,7 +40,7 @@ app.use(limiter)
 app.set('etag', WEB_CACHE)
 
 
-//MongoDB connection
+// MongoDB connection
 // mongoose.connect(MONGODB_CONNECTION,{autoReconnect: true})
 //     .then(()=> {
 //
