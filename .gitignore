@@ -29,3 +29,5 @@ jspm_packages/
 
 # Environment variable files
 .env
+
+.idea/
